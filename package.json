@@ -1,0 +1,16 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Le playground",
+  "main": "index.js",
+  "repository": "git@github.com:edwarddamato/playground.git",
+  "author": "Edward D'Amato",
+  "license": "MIT",
+  "dependencies": {
+    "marko": "^4.2.6"
+  },
+  "devDependencies": {
+    "lasso-cli": "^2.0.7",
+    "lasso-marko": "^2.3.0"
+  }
+}
