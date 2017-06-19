@@ -1,4 +1,17 @@
-<div>
-  <label for-key="somekey">${input.label}</label>
-  <input key="somekey" type="text" placeholder="some placeholder" />
+import screenreaderTrap from 'makeup-screenreader-trap';
+
+class {
+    onCreate(input) {
+        console.log('woo');
+    }
+    getValue() {
+      return this.getEl(this.input.id).value;
+    }
+}
+
+<div class="field">
+    <label.field_label for-key=input.id>$!{input.label}</label>
+    <span class="field_control field_control--textbox">
+        <input class="textbox" key=input.id type="text" value="moo" placeholder=input.placeholder />
+    </span>
 </div>

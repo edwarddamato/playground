@@ -2,12 +2,17 @@
   "name": "playground",
   "version": "1.0.0",
   "description": "Le playground",
+  "scripts": {
+    "test": "marko test ./src/components/**/*.test.js"
+  },
   "main": "index.js",
   "repository": "git@github.com:edwarddamato/playground.git",
   "author": "Edward D'Amato",
   "license": "MIT",
   "dependencies": {
-    "marko": "^4.2.6"
+    "makeup-screenreader-trap": "^0.0.2",
+    "marko": "^4.4.14",
+    "marko-devtools": "^1.0.9"
   },
   "devDependencies": {
     "lasso-cli": "^2.0.7",
