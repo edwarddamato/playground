@@ -10,8 +10,7 @@
   "author": "Edward D'Amato",
   "license": "MIT",
   "dependencies": {
-    "makeup-screenreader-trap": "^0.0.2",
-    "marko": "^4.4.14",
+    "marko": "^4.4.17",
     "marko-devtools": "^1.0.9"
   },
   "devDependencies": {

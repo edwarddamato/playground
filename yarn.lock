@@ -2017,10 +2017,6 @@ lru-cache@^4.0.1:
     pseudomap "^1.0.2"
     yallist "^2.1.2"
 
-makeup-screenreader-trap@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/makeup-screenreader-trap/-/makeup-screenreader-trap-0.0.2.tgz#8ad08e9dda8c40383d256d3fc9c45edf11dc3675"
-
 marko-devtools@^1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/marko-devtools/-/marko-devtools-1.0.9.tgz#59636d4f22f29ce113b77be77d456d9166018d90"
@@ -2051,9 +2047,45 @@ marko-devtools@^1.0.9:
     resolve-from "^2.0.0"
     unzip "^0.1.11"
 
-marko@^4.1.1, marko@^4.4.14:
+marko@^4.1.1:
   version "4.4.14"
   resolved "https://registry.yarnpkg.com/marko/-/marko-4.4.14.tgz#f305043cfafbc7af95d7298df29549f56f7f0849"
+  dependencies:
+    app-module-path "^2.2.0"
+    argly "^1.0.0"
+    browser-refresh-client "^1.0.0"
+    char-props "~0.1.5"
+    complain "^1.0.0"
+    deresolve "^1.1.2"
+    escodegen "^1.8.1"
+    esprima "^3.1.1"
+    estraverse "^4.2.0"
+    events "^1.0.2"
+    events-light "^1.0.0"
+    he "^1.1.0"
+    htmljs-parser "^2.3.2"
+    lasso-caching-fs "^1.0.1"
+    lasso-modules-client "^2.0.3"
+    lasso-package-root "^1.0.1"
+    listener-tracker "^2.0.0"
+    minimatch "^3.0.2"
+    object-assign "^4.1.0"
+    property-handlers "^1.0.0"
+    raptor-async "^1.1.2"
+    raptor-json "^1.0.1"
+    raptor-polyfill "^1.0.0"
+    raptor-promises "^1.0.1"
+    raptor-regexp "^1.0.0"
+    raptor-util "^3.2.0"
+    resolve-from "^2.0.0"
+    simple-sha1 "^2.1.0"
+    strip-json-comments "^2.0.1"
+    try-require "^1.2.1"
+    warp10 "^1.0.0"
+
+marko@^4.4.17:
+  version "4.4.17"
+  resolved "https://registry.yarnpkg.com/marko/-/marko-4.4.17.tgz#94b0cce7d8850bd6dfe7cecfbfa2fdedbf09a5bd"
   dependencies:
     app-module-path "^2.2.0"
     argly "^1.0.0"
